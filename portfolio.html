@@ -15,7 +15,7 @@
         Nick Lyman's Portfolio
       </h1>
     </div>
-    <div class="container about">
+    <div class="about">
       <h2>
         <strong>About Me</strong>
       </h2>
@@ -23,7 +23,8 @@
         <img src="img/NickLyman.jpg" class="img-responsive" alt="Photo of      Nick Lyman">
         I am originally from Montana, growing up in a tiny town of 200 people, before moving to Bozeman and attending Montana State University. I graduated with a degree in Geography and specialized in Geographic Information Systems (GIS) and Remote Sensing. I chose this field because I always loved maps and loved to travel. After graduation and some traveling, I ended up in Portland, Oregon, and got a job using remote sensing for classifying land cover.  After several years at that job, I got itchy feet and decided that remote sensing wasn't what I wanted to continue doing. My wife and I decided to follow our desire to travel and left for 6 months, spending a month in Argentina, a month in Chile, and 4 months driving around the United States. Once we returned to Portland, I decided to find work in the GIS field, and ended up at Ecotrust working as a GIS Analyst. After 7 years, I knew that I didn't want to continue in the GIS world as a career either and decided to pursue my interest in software development, which led me to Epicodus.  We are in the final day of our first week and it has been an incredible experience so far! Below, you can find out more information about what I have learned and worked on during this past week, plus more information on my decision to transition to software development as a career.
       </p>
-      <div class="interests">
+    </div>
+    <div class="interests">
       <h2>
         <strong>My Interests</strong>
       </h2>
@@ -34,8 +35,89 @@
         <li>Walking</li>
         <li>Drinking coffee</li>
         <li>Relaxing</li>
+        <span class="excite"><li>Learning to write code!</li></span>
       </ul>
     </div>
+    <div id="myCarousel" class="carousel slide">
+      <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+        <li data-target="#myCarousel" data-slide-to="2"></li>
+        <li data-target="#myCarousel" data-slide-to="3"></li>
+        <li data-target="#myCarousel" data-slide-to="4"></li>
+        <li data-target="#myCarousel" data-slide-to="5"></li>
+        <li data-target="#myCarousel" data-slide-to="6"></li>
+        <li data-target="#myCarousel" data-slide-to="7"></li>
+      </ol>
+      <div class="carousel-inner" role="listbox">
+        <div class="item active">
+          <img src="img/montana.jpg" alt="Photo of the Cabinet Mountains in northwest Montana, where Nick Lyman was born and raised">
+          <div class="carousel-caption">
+            <h3>Montana</h3>
+            <p>"A photo of the Cabinet Mountains in northwest Montana, where Nick Lyman was born and raised"</p>
+          </div>
+        </div>
+        <div class="item">
+          <img src="img/steens.jpg" alt="Photo of Steens Mountain and the Alvord Desert">
+        </div>
+        <div class="carousel-caption">
+          <h3>Steens Mountain and Alvord Desert</h3>
+          <p>"A great, empty place to visit in southeast Oregon"</p>
+        </div>
+        <div class="item">
+          <img src="img/whitepocket.jpg" alt="Photo of red and white sandstone rocks in the Grand Staircase Escalante National Monument in southern Utah">
+        </div>
+        <div class="carousel-caption">
+          <h3>White Pocket</h3>
+          <p>"A hidden gem of sandstone"</p>
+        </div>
+        <div class="item">
+          <img src="img/costarica.jpg" alt="Photo of beach at Manuel Antonio National Park in Costa Rica">
+        </div>
+        <div class="carousel-caption">
+          <h3>Costa Rica</h3>
+          <p>"A photo of the beach at Manuel Antonio National Park in Costa Rica"</p>
+        </div>
+        <div class="item">
+          <img src="img/valparaiso.jpg" alt="Photo of Valparaiso, Chile, overlooking the Pacific Ocean">
+        </div>
+        <div class="carousel-caption">
+          <h3>Valparaiso, Chile</h3>
+          <p>"A great city, reminding me of the San Francisco of South America"</p>
+        </div>
+        <div class="item">
+          <img src="img/mendoza.jpg" alt="Photo of Mendoza, Argentina with vineyards and mountains in the background">
+        </div>
+        <div class="carousel-caption">
+          <h3>Mendoza, Argentina</h3>
+          <p>"The mountains and vineyards make Mendoza a memorable place to visit"</p>
+        </div>
+        <div class="item">
+          <img src="img/sarajevo.jpg" alt="Photo of Sarajevo in Bosnia and Herzegovina">
+        </div>
+        <div class="carousel-caption">
+          <h3>Sarajevo</h3>
+          <p>"Sarajevo is an incredible city with an amazing culture and history"</p>
+        </div>
+        <div class="item">
+          <img src="img/perast.jpg" alt="Photo of Perast in the Bay of Kotor region of Montenegro">
+        </div>
+        <div class="carousel-caption">
+          <h3>Perast</h3>
+          <p>"Perast hangs on the wall of a steep slope that falls into the Bay of Kotor in Montenegro"</p>
+        </div>
+        <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+          <span class="glyphicon glyphicon-cheveron-left" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+          <span class="glyphicon glyphicon-cheveron-right" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+    </div>
   </div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
 </body>
 </html>

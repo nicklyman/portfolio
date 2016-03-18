@@ -1,4 +1,5 @@
 body {
+  font-family: monospace;
   padding: 2%;
   background-color: #d5d9d8;
   }
@@ -6,7 +7,6 @@ h1 {
   color: #ffffff;
   text-shadow: 3px 3px 5px #000000;
   text-align: center;
-  font-family: monospace;
 }
 .jumbotron {
   background-color: gray;
@@ -23,19 +23,42 @@ h1 {
     padding: 5px;
 }
 .about {
-  font-family: monospace;
   text-align: center;
   margin-left: auto;
   margin-right: auto;
+}
+.about h2 {
+  text-shadow: 3px 3px 5px #a8a8a8;
 }
 .about p {
   text-align: justify;
   font-size: 12pt;
   max-width: 100%;
 }
+.interests {
+  text-align: center;
+  text-shadow: 3px 3px 5px #a8a8a8;
+}
 .center {
   font-size: 12pt;
   width: 30%;
   margin:0 auto;
   text-align: left;
+}
+.excite {
+  font-weight: bold;
+  color: #f60000;
+}
+.carousel-slide {
+  min-height: 500px;
+  max-height: 500px;
+  min-width: 700px;
+  max-width: 700px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.carousel-caption {
+  color: white;
+  text-shadow: 2px 2px 3px black;
 }
