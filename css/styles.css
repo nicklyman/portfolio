@@ -34,13 +34,24 @@ p {
 }
 .interests {
   text-align: center;
-  text-shadow: 3px 3px 5px #a8a8a8;
 }
 .center {
-  font-size: 12pt;
+  text-align: center;
+  color: white;
+  margin: 20px;
+  border: 3px solid yellow;
+  border-right: -25px;
+  padding: 20px;
+  background-color: black;
+}
+.center {
+  font-size: 16pt;
   width: 30%;
   margin:0 auto;
-  text-align: left;
+  text-align: center;
+}
+ul {
+  list-style-type: none;
 }
 .excite {
   font-weight: bold;
@@ -59,6 +70,9 @@ p {
   color: white;
   text-align: center;
   text-shadow: 2px 2px 3px black;
+}
+.slide {
+  padding: 20px;
 }
 .about img {
     float: left;
