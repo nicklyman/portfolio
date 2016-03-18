@@ -8,7 +8,7 @@ h1 {
   text-shadow: 3px 3px 5px #000000;
   text-align: center;
 }
-h2 {
+h2, h3 {
   text-align: center;
   text-shadow: 3px 3px 5px #a8a8a8;
 }
@@ -78,4 +78,13 @@ ul {
     float: left;
     max-width: 400px;
     padding: 5px;
+}
+.btn {
+  text-align: center;
+}
+.repository {
+  color: yellow;
+  background-color: orange;
+  padding: 10px;
+  text-shadow: 2px 2px 3px black;
 }
