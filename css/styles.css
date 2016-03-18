@@ -8,6 +8,9 @@ h1 {
   text-shadow: 3px 3px 5px #000000;
   text-align: center;
 }
+p {
+  font-size: 12pt;
+}
 .jumbotron {
   background-color: gray;
 }
@@ -32,7 +35,6 @@ h1 {
 }
 .about p {
   text-align: justify;
-  font-size: 12pt;
   max-width: 100%;
 }
 .interests {
@@ -50,6 +52,7 @@ h1 {
   color: #f60000;
 }
 .carousel-slide {
+  padding: 10px;
   min-height: 500px;
   max-height: 500px;
   min-width: 700px;
@@ -61,4 +64,3 @@ h1 {
 .carousel-caption {
   color: white;
   text-shadow: 2px 2px 3px black;
-}
