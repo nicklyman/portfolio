@@ -103,3 +103,12 @@ ul {
   border: 2px solid black;
   display: inline-block;
 }
+.nomad {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  min-height: 400px;
+  max-height: 400px;
+  min-width: 600px;
+  max-width: 600px;
+}
