@@ -99,10 +99,6 @@ ul {
   padding-bottom: 10px;
   text-shadow: 2px 2px 3px black;
 }
-.row {
-  border: 2px solid black;
-  display: inline-block;
-}
 .nomad {
   display: block;
   margin-left: auto;
