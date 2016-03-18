@@ -10,6 +10,7 @@ _I created this website to demonstrate the work that I have produced during my f
 
 ## Setup/Installation Requirements
 
+* _Link to repository: nicklyman.github.io/portfolio_
 * _Clone this repository to your Github account_
 * _Create a project directory up on your computer_
 * _Open the .hmtl file in your web browser_
